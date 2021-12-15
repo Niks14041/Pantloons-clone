@@ -116,6 +116,17 @@ header{
 
 }
 
+.home{
+    left: calc(-100% + -15rem)
+}
+
+#ac{
+    left: calc(-100% + -25rem);
+    height: 300px;
+   
+
+}
+
 
 
 .flex{
@@ -162,7 +173,7 @@ p{
     height:400px;
 
 }
-.left>div:last-child{
+.bold{
     font-weight: bold;
 }
 .left>div{
@@ -286,3 +297,29 @@ p{
     margin: 1%;
 
 }
+
+#decor>div:nth-child(1n) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 10px;
+
+
+}
+#decor>div:nth-child(1n)>div{
+      background-color: white;
+    border-radius: 20px;
+    width: 20%;
+    text-align: center;
+    height: 20px;
+
+
+}
+/* .women{
+    height: 55px;
+} */
+.access{
+    width: 100%;
+}
+
