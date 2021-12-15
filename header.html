@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Headert</title>
+    <style>
+        .top-header-wrapper{
+            display: flex; justify-content: space-between; font-size: 14px; font-family: proxima-nova; background: #fff; width: 100%;
+        }
+        .level0-navigation-link{
+            margin-left: 17px;  cursor: pointer; letter-spacing: 2px; font-size: 12px; color: rgba(0,0,0,.6); font-weight: 500;
+        }
+        .welcome-text{  color: #2a2a2a;
+            font-family: Trirong,serif; font-weight: 500; margin-right: 18px;
+        }
+        .location-text{
+            color: #7f7f7f; font-size: 12px; letter-spacing: 2px; font-weight: 500;
+        }
+        .location-city{
+            font-weight: 500; color: #000; margin-right: 5px; font-size: 12px; letter-spacing: 2px; text-transform: uppercase;
+        } 
+        .MuiContainer-root{
+            padding: 0 16px;display: block; box-sizing: border-box; margin-left: 5%; margin-right: auto; padding-left: 16px; padding-right: 16px; display: flex;
+        }
+        .welcome-wrapper{
+            display: flex; padding: 2px; width: 100%;    
+        }
+        .location-change{
+            color: #00b0b5; font-weight: 500; cursor: pointer; letter-spacing: 2px; font-size: 12px; margin-left: 10px;
+        }
+        .level0-navigation{
+            padding: 2px; display: flex; margin-right: 5%; 
+        }
+        a{
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+        <div class="top-header-wrapper">
+            <div class="welcome-wrapper">
+            <div class="MuiContainer-root">
+                <div class="welcome-text"><i><b> <!-- -->Hi There<!-- -->!</b></i></div>
+                <div class="location"><span class="location-text">SHOPPING IN </span>
+                <span class="location-city">Bengaluru</span><span class="location-change"><b>CHANGE</b></span>
+            </div>
+            </div>
+            <div class="level0-navigation">
+                <a class="level0-navigation-link" title="GREENCARD" href="/content/greencard?source=menu&amp;page=1">GREEN CARD</a>
+                <a target="_blank" rel="noreferrer noopener" title="GIFT CARD" class="level0-navigation-link" href="https://pantaloons.woohoo.in/e-gift-card">GIFT CARD</a>
+                <a class="level0-navigation-link" title="STORE LOCATOR" href="/content/store-locators-9">STORE LOCATOR</a>
+                <a target="_blank" rel="noreferrer noopener" title="TRACK ORDER" class="level0-navigation-link" 
+                href="https://track.pantaloons.com/">TRACK ORDER</a>
+            </div>
+        </div>
+</body>
+</html>
