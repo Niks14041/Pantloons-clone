@@ -48,7 +48,47 @@ table {
 }
   
 
+/* styles */
+#head1>p:nth-child(1){
+   font-style: italic;
 
+}
+#head2>p{
+    color: gray;
+
+}
+
+.yellow>span{
+    font-weight: bold;
+}
+.white{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+
+}
+.white p{
+    font-size: 13px;
+}
+.white>div:nth-child(1n){
+    margin-left:110px;
+}
+.white>div:nth-child(2n){
+    margin-right: 110px;
+}
+
+.uppersub>p{
+    margin-left: 25px;
+   
+    
+}
+.yellow{
+    padding: 0.8rem;
+    background-color: rgb(255,201,41);
+    text-align: center;
+
+
+}
 *{
      font-family:sans-serif
 }
@@ -99,6 +139,8 @@ header{
     display: none;
     top: calc(100% + 2.3rem ) ;
     left: calc(-100% + -5rem) ;
+   
+    
 
    
   
@@ -134,12 +176,11 @@ header{
 
 }
 .women:hover .dropdown{
-   display: flex;
-    /* width: 80%; */
+   display: flex ;
     position:absolute;
 
+}
 
-} 
 .women{
     position: relative;
 }
