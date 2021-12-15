@@ -1,0 +1,132 @@
+*{
+     font-family:sans-serif
+}
+
+.dropdown{
+    border: 1px solid black;
+    display: flex;
+    width: 80%;
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family:sans-serif;
+}
+p{
+     font-family:sans-serif;
+     margin-top: 0%;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    width: 60%;
+    height:400px
+}
+.left>div:last-child{
+    font-weight: bold;
+}
+div>div>div{
+    
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    line-height: 23px;
+    font-size: small;
+    
+}
+div>div>div>a:first-child{
+    font-weight: bold;
+}
+.right{
+    width: 40%;
+    background-color: rgb(248,248,250);
+}
+.right>div{
+    width: 100%;
+    
+}
+.right>div:first-child{
+    display: flex;
+    flex-direction: column;
+    height:40%;
+    justify-content: space-evenly;
+}
+
+.right>div:first-child>div:nth-child(1n){
+    height: 20px;
+
+}
+.right>div:first-child>div:nth-child(2n){
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10px;
+
+}
+img{
+    border-radius: 20px;
+}
+.right>div:nth-child(2n){
+    display: flex;
+    
+    
+}
+.text{
+    width: 95%;
+    margin-left: 5%;
+  
+    
+}
+.right>div:nth-child(2n)>div:nth-child(2n){
+    width: 100%;
+}
+.right>div:nth-child(2n)>div:nth-child(2n){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.right>div:nth-child(2n)>div:nth-child(2n)>div{
+    background-color: white;
+    border-radius: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+.right>div:nth-child(3n){
+    display: flex;
+    
+    
+}
+
+.right>div:nth-child(3n)>div:nth-child(1n){
+    margin-top: 5%;
+    width: 95%;
+    margin-left: 5%;
+
+}
+
+.right>div:nth-child(3n)>div:nth-child(2n){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 0%;
+
+}
+
+.right>div:nth-child(3n)>div:nth-child(2n)>div{
+    width: 15%;
+    margin: 1%;
+
+}
