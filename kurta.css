@@ -2,14 +2,16 @@
   display: flex;
   flex-wrap: wrap;
   width: 55%;
+  height: fit-content;
   margin: auto;
 }
 
 .product-box {
   width: 26%;
-  height: 360px;
+  height: 15%;
   line-height: 5px;
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 .product-box:hover {
@@ -21,7 +23,6 @@
 .image-box {
   text-align: center;
   width: 100%;
-  height: 280px;
 }
 
 img {
@@ -69,6 +70,7 @@ h2 {
 .brand-box {
   letter-spacing: 0.8px;
   margin-left: 8%;
+  margin-top: 30px;
 }
 
 .brand-name {
@@ -93,7 +95,7 @@ h3 {
   flex-direction: row;
 }
 #sortBy {
-  width: 85%;
+  width: 90%;
   display: flex;
 }
 label {
