@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+<style>
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 560px;
+        margin: auto;
+        background-color: white;
+        border-bottom: 30px #ffc929 solid ;
+        border-radius: 10px;
+    }
+
+    #t1 {
+
+        height: 90px;
+        padding: 0px 70px;
+        background-color: #ffc929;
+       
+    }
+
+    #login {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #form {
+        padding: 10px opx;
+        text-align: center;
+    }
+
+    input {
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+border: 1px grey solid;
+    }
+
+    label {
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding-right: 140px;
+    }
+
+    #btt{
+        padding: 15px 70px;
+        border-radius: 30px;
+        font-size: 25px;
+        color: white;
+        background-color: teal;
+    }
+    #googfac{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        
+    }
+    button{
+       width: 200px;
+    border-radius: 30px;
+        color: #1877f2;
+        background-color: white;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+       
+    }
+    img{
+        width: 180px;
+        height: 55px;
+        padding-top: 10px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    p{
+        font-size: 20px;
+       
+    }
+    body{ 
+    background-image: url(https://pantaloons.imgix.net/img/app/brands/pantaloons/bg-login.png);
+}
+ 
+</style>
+
+<body>
+    <div id="backpage">
+    <div id="container">
+        <div id="t1">
+            <h4>Flat 30% Off on your first order. Min. purchase Rs 1500. Use Code: PTNEW30 at checkout</h4>
+        </div>
+        <div id="login"><i>Login/Register</i></div>
+        <form id="form">
+            <label for="username">Enter your user name*</label><br>
+            <input type="text" id="user" placeholder="username" /><br>
+            <label for="password">Enter your password*</label><br>
+            <input type="password" id="pass" placeholder="password" /><br>
+            <button id="btt">Login</button>
+
+            <p>or login with</p>
+        </form>
+        <div id="googfac">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT36sR58kdaUZvbCcWGeeH0hPJR4xzEsuO0cQ&usqp=CAU" alt="">
+            </div>
+            <div><button><h1>facebook</h1></button></div>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>
+<script>
+    document.querySelector("#btt").addEventListener('click', login)
+    var arr2=JSON.parse(localStorage.getItem("arr2"))||[]
+    function login(event){
+    
+event.preventDefault()
+        var name = document.querySelector("#user").value
+        var password = document.querySelector("#pass").value
+
+        var logindata = {
+            name: name,
+            password: password
+        };
+        arr2.push(logindata)
+        localStorage.setItem("arr2", JSON.stringify(arr2))
+        console.log(arr2);
+
+        if( name == "admin" && password == "admin" ){
+            console.log("admin")
+            window.location.href= "mainpage.html"
+            
+        }
+        else {
+                for (var i = 0; i < arr2.length; i++) {
+                    if (arr2[i].name==name &&  arr2[i].password==password){
+                        alert("login successful")
+                        window.location.href="mainpage.html"
+                        break
+                    }
+                    else{ 
+                        alert("login failed")
+                        break
+                    }
+            }
+            }
+        
+
+    }
+
+  
+</script>
