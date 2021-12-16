@@ -46,9 +46,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
   
 
 /* styles */
+
+.upper{
+    position:fixed;
+    top: 0;
+}
 #head1>p:nth-child(1){
    font-style: italic;
 
@@ -63,8 +69,11 @@ table {
 }
 .white{
     display: flex;
-    justify-content: space-between;
+   
     padding: 3px;
+    background-color: white;
+    width: 100%;
+ 
 
 }
 .white p{
@@ -86,6 +95,8 @@ table {
     padding: 0.8rem;
     background-color: rgb(255,201,41);
     text-align: center;
+    width: 100vw;
+  
 
 
 }
@@ -126,6 +137,8 @@ header{
     background-color: rgb(0,176,181);
     padding:  1.5rem;
     justify-content: space-evenly;
+    
+    width: 100vw;
   
    
 }
@@ -223,7 +236,7 @@ header p{
 .bold{
     font-weight: bold;
 }
-.left>div{
+header .left>div{
     
     display: flex;
     flex-direction: column;
@@ -232,7 +245,7 @@ header p{
     font-size: small;
     
 }
-.innerright{
+header .innerright{
     display: flex;
     flex-direction: column;
     width: 25%;
