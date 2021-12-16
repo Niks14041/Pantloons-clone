@@ -10,11 +10,28 @@
 </head>
 
 <body>
-    <div class="container">
-        <!-- 1st div is for filter -->
-        <div class="filter-div"></div>
-        <div class="main">
-            <div class="kurta-heading">
+
+        <div class="filter-div">
+            <label for="">filter by brand</label>
+            <select name="" id="filterbrand" onchange="filterbrand()">
+                <option value="">BRAND FILTER</option>
+                <option value="INDUS ROUTE">INDUS ROUTE</option>
+                <option value="PETER ENGLAND">PETER ENGLAND</option>
+                <option value="PEOPLE">PEOPLE</option>
+            
+            </select>
+
+            <label for="">fiter by discount</label>
+            <select name="" id="filterdiscount" onchange="filterdiscount()">
+            <option value="">DISCOUNT FILTER</option>
+            <option value="20% OFF">10-20% OFF</option>
+            <option value="25% OFF">25% OFF</option>
+            <option value="30% OFF">30% OFF</option>
+        
+        </select>
+            
+        </div>
+        <div class="kurta-heading">
                 <h2><i>Kurtas</i></h2>
             </div>
             <div id="sortBy">
@@ -23,10 +40,15 @@
                     <option value="">.....</option>
                     <option value="low">Price - Low to High</option>
                     <option value="high">Price - High to Low</option>
-                    
-                   
+            
+            
                 </select>
             </div>
+    <div class="container">
+        <!-- 1st div is for filter -->
+
+        <div class="main">
+
         </div>
 
     </div>
