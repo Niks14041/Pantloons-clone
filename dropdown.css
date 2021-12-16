@@ -139,6 +139,7 @@ header{
     display: none;
     top: calc(100% + 2.3rem ) ;
     left: calc(-100% + -5rem) ;
+    
    
     
 
@@ -177,17 +178,22 @@ header{
 }
 .women:hover .dropdown{
    display: flex ;
-    position:absolute;
+   position: absolute;
+   transition: position 5 sec;
+
 
 }
 
+.align{
+    vertical-align: middle;
+ 
+   
+}
 .women{
     position: relative;
+    
+    vertical-align: middle;
 }
-.women:hover{
-    border-bottom: 4px solid gold;
-}
-
 header a{
      text-decoration: none;
     color: white;
