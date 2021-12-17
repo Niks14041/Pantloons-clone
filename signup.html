@@ -11,7 +11,7 @@
 
 
     <link rel="stylesheet" href="dropdown.css">
-    <body>
+    
     
         <div class="white">
             <div class="white uppersub" id="head1">
@@ -626,7 +626,7 @@
             </div>
     
         </header>
-    </body>
+   
 
     <div id="backpage">
         <div id="container">
@@ -640,7 +640,6 @@
                 <label for="password">Enter your password*</label><br>
                 <input type="password" id="pass" placeholder="password" /><br>
                 <button id="btt">Login</button>
-
                 <p>or login with</p>
             </form>
             <div id="googfac">
@@ -838,8 +837,9 @@
     function login(event) {
 
         event.preventDefault()
-        var name = document.querySelector("#user").value
+        var userid = document.querySelector("#user").value
         var password = document.querySelector("#pass").value
+        
 
         var logindata = {
             name: name,
@@ -849,7 +849,7 @@
         localStorage.setItem("arr2", JSON.stringify(arr2))
         console.log(arr2);
 
-        if (name == "admin" && password == "admin") {
+        if (userid == "admin" && password == "admin") {
             console.log("admin")
             window.location.href = "mainpage.html"
 
@@ -872,6 +872,5 @@
 
 
     }
-
 
 </script>
