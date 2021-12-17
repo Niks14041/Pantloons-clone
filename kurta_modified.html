@@ -5,32 +5,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kurta</title>
+    <title>Women_tees_tops</title>
+    <script src="https://kit.fontawesome.com/dca83bf159.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="kurta.css">
 </head>
 
 <body>
-    <div class="container">
-        <!-- 1st div is for filter -->
-        <div class="filter-div"></div>
-        <div class="main">
-            <div class="kurta-heading">
-                <h2><i>Kurtas</i></h2>
-            </div>
-            <div id="sortBy">
-                <label>SORT BY </label>
-                <select>
-                    <option>Price - High to Low</option>
-                    <option>Price - Low to High</option>
-                    <option>Discout</option>
+
+
+    <!-- <--------------------------------------------KURTA PAGE ----------------------------------------- -->
+
+
+    <div class="kurta-main">
+        <div class="filter-box">
+
+            <div class="filter-div">
+
+                <h4>FILTER BY</h4>
+
+
+                <select name="" id="filterbrand" onchange="filterbrand()">
+                    <option value="">BRAND </option>
+                    <option value="INDUS ROUTE">INDUS ROUTE</option>
+                    <option value="PETER ENGLAND">PETER ENGLAND</option>
+                    <option value="PEOPLE">PEOPLE</option>
+
                 </select>
+
+                <select name="" id="filterdiscount" onchange="filterdiscount()">
+                    <option value="">DISCOUNT</option>
+                    <option value="20% OFF">10-20% OFF</option>
+                    <option value="25% OFF">25% OFF</option>
+                    <option value="30% OFF">30% OFF</option>
+
+                </select>
+
+                <select>
+                    <option>PRICE</option>
+                    <option>LOW to HIGH</option>
+                    <option>HIGH to LOW</option>
+                </select>
+                <select name="" id="">
+                    <option value="">CATEGORY</option>
+                    <option value="">SMALL</option>
+                    <option value="">MEDIUM</option>
+                    <option value="">LARGE</option>
+                    <option value="">EXTRA LARGE</option>
+                </select>
+
             </div>
         </div>
 
+        <div class="all-product">
+
+            <div class="kurta-heading">
+                <h2><i>Kurtas</i></h2>
+            </div>
+
+            <div id="sortBy">
+                <label>SORT BY </label>
+                <select id="sort" onchange="numsort()">
+                    <option value="">Choose</option>
+                    <option value="high">Price - High to Low</option>
+                    <option value="low">Price - Low to High</option>
+                </select>
+            </div>
+
+            <div class="main"></div>
+
+        </div>
+
     </div>
-
-
-
 </body>
 
 </html>
