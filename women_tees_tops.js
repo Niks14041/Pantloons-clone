@@ -1,5 +1,6 @@
 
- var data = JSON.parse(localStorage.getItem("kurta")) || [];
+
+var data = JSON.parse(localStorage.getItem("women")) || [];
  displayitem(data);
 
 
@@ -29,7 +30,7 @@ data.map(function (elem) {
     des.textContent = elem.description;
 
     var price = document.createElement("p");
-    price.textContent = "₹" + elem.price;
+    price.textContent = "₹"+elem.price;
     price.setAttribute("class", "price-bold");
 
     var previous_price = document.createElement("p");
@@ -83,23 +84,23 @@ data.map(function (elem) {
  function filterbrand(){
 
   
-            var selected=document.querySelector("#filterbrand").value
-            var brand =data.filter(function(el){
+            var selected = document.querySelector("#filterbrand").value;
+            var brand = data.filter(function(el){
                 // return selected ==el.cat;
                 return selected == el.brand
             })
-            displayitem(brand)
+            displayitem(brand);
 }
 
 function filterdiscount(){
-    var selected=document.querySelector("#filterdiscount").value
+    var selected = document.querySelector("#filterdiscount").value;
 
 
 
-    var discount=data.filter(function(el){
-        return selected==el.discount
+    var discount = data.filter(function(el){
+        return selected == el.discount;
     })
     
-    displayitem(discount)
+    displayitem(discount);
 }
  

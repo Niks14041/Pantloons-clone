@@ -1,5 +1,7 @@
 
- var data = JSON.parse(localStorage.getItem("kurta")) || [];
+
+var data=JSON.parse(localStorage.getItem("kids")) || [];
+
  displayitem(data);
 
 
