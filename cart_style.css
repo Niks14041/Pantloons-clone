@@ -1,0 +1,40 @@
+.mybag {
+  width: 46%;
+  height: 500px;
+  margin-left: 12%;
+  border: 1px solid red;
+  margin-right: 3%;
+}
+.checkout {
+  width: 25%;
+  height: 100%;
+  border: 1px solid rebeccapurple;
+}
+.main-div {
+  width: 90%;
+  height: 500px;
+  border: 1px solid salmon;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20%;
+  margin-left: 5%;
+}
+.free-shipping {
+  width: 100%;
+  height: fit-content;
+  background-color: #ffc929;
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+}
+div > p {
+  font-size: 11px;
+  padding: 2%;
+  letter-spacing: 0.5px;
+}
+.order-summary {
+  border: 1px solid black;
+  height: 400px;
+  width: 100%;
+  margin-top: 10%;
+}
