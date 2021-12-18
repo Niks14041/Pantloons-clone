@@ -1,0 +1,147 @@
+
+.mybag p{
+  font-family: sans-serif;
+}
+.mybag {
+  width: 46%;
+  margin-left: 12%;
+  
+  margin-right: 3%;
+}
+.checkout {
+  width:315px;
+  height:300px;
+  /* border: 1px solid rebeccapurple; */
+  /* text-align: center; */
+   background-color: rgb(240,254,255)
+}
+.main-div {
+  width: 90%;
+  /* border: 1px solid salmon; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+.free-shipping {
+  width: 100%;
+  height: fit-content;
+  background-color: #ffc929;
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+}
+div > p {
+  font-size: 11px;
+  padding: 1%;
+  letter-spacing: 0.5px;
+}
+.order-summary {
+  /* border: 1px solid black; */
+  height: 300px;
+  width: 300px;
+  margin-top: 10%;
+  background-color: rgb(240,254,255);
+  line-height: 2;
+}
+.image-box{
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+
+
+}
+/* .mybag{
+  
+
+} */
+.mybag img{
+  border-radius: 20px;
+  width: 100px;
+  height: 130px;
+}
+
+.product-box{
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 4%;
+  border-radius: 20px;
+}
+
+.price-box{
+  display: flex;
+}
+.del{
+  width:2000px;
+
+}
+.child-box{
+
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 3%;
+  
+}
+.brand-name{
+  font-size: 15px;
+  font-weight: bold;
+}
+.des{
+  margin-top: 5%;
+  font-size: 13px;
+}
+
+.price-bold{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.price-box{
+  margin-top: 4%;
+}
+
+.bag h1{
+  font-weight: bold;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.checkout h3{
+  font-size: 25px;
+  color: gray;
+  font-style: italic;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.finalbutton{
+  padding: 15px 125px;
+  border-radius: 20px;
+  border: transparent;
+  background-color: rgb(0,184,190);
+  color: white;
+  font-weight: bold;
+}
+
+.order-summary input{
+  border-radius: 10px;
+  border: 1px solid rgb(46, 187, 243);
+  padding: 10px 20px;
+}
+
+.order-summary button{
+  border-radius: 10px;
+  border: transparent;
+  background-color: rgb(0,184,190);
+  color: white;
+  font-weight: bold;
+  padding: 10px 25px;
+
+}
+.yellow,.white{
+  padding: 0px;
+}
+
+
+
