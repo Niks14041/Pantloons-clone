@@ -1,0 +1,441 @@
+#fullPage {
+  width: 100%;
+  display: grid;
+  margin-top: -3%;
+}
+#hero {
+  margin-bottom: 9%;
+}
+#box1 {
+  margin: auto;
+}
+#box1Left > h2 {
+  margin-left:20%;
+  font-family: "Trirong", serif;
+  margin-top: -24%;
+  font-size: 255%;
+  color: white;
+  font-weight: bolder;
+  line-height: 120%;
+
+}
+#box1Right {
+  margin-left:55%;
+  margin-top: -28%;
+
+}
+#box1Right>img{
+  margin-left: -100px;
+}
+
+#box1Right > button {
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  letter-spacing: 4px;
+  color: white;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border: 1px solid transparent;
+  background: rgb(1, 186, 191);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 186, 191, 1) 15%,
+    rgba(0, 171, 178, 1) 100%
+  );
+  padding: 1.5% 5%;
+  margin-top: 2%;
+  margin-left: -10%;
+  display: none;
+  
+  
+}
+.gallery {
+  width: 73%;
+  margin: auto;
+
+  margin-top: 5%;
+}
+.gallery > h2 {
+  font-family: "Trirong", serif;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+.heightImages {
+  display: flex;
+  justify-content: space-between;
+}
+
+img:hover {
+  cursor: pointer;
+}
+.imgText {
+  display: grid;
+}
+.imgText > img {
+  border-radius: 8px;
+}
+h2 {
+  font-size: 34px;
+}
+.prodName {
+  letter-spacing: 3px;
+  margin-top: 1%;
+  font-family: "Kanit", sans-serif;
+  margin-top: 5%;
+  font-size: 18px;
+  
+  text-align: left;
+
+}
+.prodDesc {
+  font-family: "Kanit", sans-serif;
+  color: rgb(54, 54, 54);
+  margin-top: 3%;
+  font-weight: 300;
+  
+  text-align: left;
+}
+.price {
+  display: flex;
+  margin-top: 2%;
+}
+.price > p:nth-child(1) {
+  margin-top: 2%;
+  font-family: "Kanit", sans-serif;
+  font-size: 85%;
+  letter-spacing: 1px;
+  
+
+}
+
+.price > p:nth-child(2) {
+  margin-top: 2%;
+  color: rgb(168, 168, 168);
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+  padding: 0px 2%;
+  letter-spacing: 1px;
+  font-style: normal;
+  text-decoration: line-through;
+}
+.price > p:nth-child(3) {
+  margin-top: 2%;
+  color: rgb(168, 124, 12);
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-style: italic;
+}
+.deals {
+  display: grid;
+  width: 73%;
+  margin: auto;
+  margin-top: 2%;
+  font-family: "Trirong", serif;
+  font-weight: bold;
+}
+.card {
+  font-family: "Trirong", serif;
+  margin-top: 2%;
+}
+.allCards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card > img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.smallCard {
+  background-color: #fffaec;
+  border-top: 3px solid #ffc929;
+  margin-top: -11px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.smallCard > p:nth-child(1) {
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  margin: 1%;
+  margin-top: 6%;
+}
+.smallCard > h2 {
+  font-weight: 200;
+  text-align: center;
+  margin: 0px;
+  margin-top: 6%;
+  padding-bottom: 6%;
+}
+.allImageBox {
+  display: flex;
+}
+.imageBox > img {
+  border-radius: 50%;
+  width: 80%;
+  margin-left: 10%;
+  border-bottom: 12px solid rgb(255, 217, 0);
+  margin-top: 11%;
+}
+.imageBox > h2 {
+  text-align: center;
+  font-size: 135%;
+  margin-top: 10%;
+}
+.discount {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  margin: auto;
+  
+  
+
+}
+.discount > img {
+  border-radius: 12px;
+  
+}
+.text {
+  display: flex;
+  width: 73%;
+  /* justify-content: space-evenly; */
+  margin: auto;
+}
+.leftDiscount {
+  width: 49%;
+}
+.rightDiscount {
+  width: 40%;
+  margin-left: 10%;
+}
+.text > .leftDiscount > p {
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  margin-left: 10%;
+  margin-top: 4%;
+  
+  text-align: left;
+}
+.text > .leftDiscount > h2 {
+  font-family: "Trirong", serif;
+  color: rgb(255, 255, 255);
+  margin-top: -30%;
+  margin-left: 10%;
+  line-height: 110%;
+  
+  text-align: left;
+}
+
+.text > .rightDiscount > p {
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  margin-left: -9%;
+  margin-top: 4%;
+  text-align: left;
+}
+.text > .rightDiscount > h2 {
+  font-family: "Trirong", serif;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin-top: -35%;
+  margin-left: -10%;
+  line-height: 110%;
+}
+.shopImage > img:nth-child(1) {
+  border-radius: 10px;
+}
+.shopImage > img:nth-child(2) {
+  border: 8px solid white;
+  border-radius: 10px;
+  margin-top: -50%;
+  margin-left: 55%;
+}
+.shopImage:nth-child(2) {
+  margin-left: 23px;
+}
+.shopImage:nth-child(3) {
+  margin-left: 23px;
+}
+.shopImage > h2 {
+  font-size: 28px;
+  margin-top: 6%;
+  font-family: "Trirong", serif;
+  font-weight: bold;
+}
+#heading {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Trirong", serif;
+  font-weight: 600;
+}
+#heading > p {
+  color: #00b0b5;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2px;
+  margin-top: 4%;
+}
+.brandsYouLove {
+  display: flex;
+}
+.brandsYouLove > .shopImage > img:nth-child(2) {
+  border: 8px solid white;
+  border-radius: 10px;
+  width: 50%;
+  margin-top: -69%;
+  margin-left: -3%;
+}
+.brandsYouLove > .shopImage:nth-child(2) {
+  margin-left: 0px;
+}
+.brandsYouLove > .shopImage:nth-child(3) {
+  margin-left: 0px;
+}
+.brandsYouLove > .shopImage {
+  margin-right: 30px;
+}
+#gallery {
+  width: 73%;
+  margin: auto;
+  font-family: "Trirong", serif;
+  margin-top: 5%;
+}
+#gallery > p {
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2px;
+  margin-top: -2%;
+  margin-bottom: 3%;
+  font-size: 18px;
+  font-weight: 400;
+}
+#gallery > h2 {
+  font-weight: 400;
+}
+#insta {
+  width: 73%;
+  margin: auto;
+  font-family: "Trirong", serif;
+  font-weight: 600;
+  margin-top: 5%;
+}
+#insta > .brandsYouLove > .shopImage > img {
+  border-radius: 4%;
+}
+#insta > .brandsYouLove > .shopImage > p {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: normal;
+  margin-bottom: 40%;
+  margin-top: 3%;
+}
+button:hover {
+  cursor: pointer;
+}
+.myDiv {
+  margin-top: 11%;
+}
+#insta > p {
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-weight: 400;
+  font-size: 16px;
+}
+.gift {
+  background: url(https://pantaloons.imgix.net/img/app/brands/pantaloons/giftcard/giftcardbg.png);
+  margin: auto;
+  border-radius: 10px;
+  width: 73%;
+  display: flex;
+  height: 450px;
+}
+.gift > div {
+  margin-top: 8%;
+}
+.gift > div:nth-child(1) {
+  margin-left: 10%;
+}
+.gift > div > h2 {
+  font-family: "Trirong", serif;
+  font-weight: 400;
+
+  margin-bottom: 13%;
+}
+.gift > div > p {
+  font-family: "Kanit", serif;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.5;
+
+  margin: -5%;
+}
+.gift > div > img {
+  margin-left: 103%;
+  border-radius: 10px;
+  width: 120%;
+}
+.gift > div > p:nth-child(3) {
+  color: #00b0b5;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2px;
+  margin-top: 16%;
+  font-weight: 400;
+}
+#email {
+  display: flex;
+  width: 73%;
+  margin: auto;
+  margin-top: 4%;
+  vertical-align: middle;
+  margin-bottom: -6%;
+}
+#email > p {
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 80%;
+  line-height: 140%;
+  margin-top: 1%;
+}
+#email input {
+  width: 33%;
+  height: 45px;
+  color: rgb(122, 122, 122);
+  padding-left: 2%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid #e6e6e6;
+  vertical-align: auto;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+h3 {
+  margin-left: -7%;
+  color: #00b0b5;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2px;
+  margin-top: 2%;
+  font-weight: 400;
+  vertical-align: auto;
+}
+#email > img:nth-child(4) {
+  margin-left: 20%;
+}
+#email > img:nth-child(5) {
+  margin-left: 3%;
+}
+#email > img:nth-child(6) {
+  margin-left: 3%;
+}
+#email > img:nth-child(7) {
+  margin-left: 3%;
+}
+#email > img:nth-child(8) {
+  margin-left: 3%;
+}

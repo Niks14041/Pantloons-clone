@@ -1,0 +1,412 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* styles */
+
+.upper {
+  position: fixed;
+  top: 0;
+}
+#head1 > p:nth-child(1) {
+  font-style: italic;
+}
+#head2 > p {
+  color: gray;
+}
+
+.yellow > span {
+  font-weight: bold;
+}
+.white {
+  display: flex;
+
+  padding: 3px;
+  background-color: white;
+  width: 100%;
+}
+.white p {
+  font-size: 13px;
+}
+.white > div:nth-child(1n) {
+  margin-left: 110px;
+}
+.white > div:nth-child(2n) {
+  margin-right: 110px;
+}
+
+.uppersub > p {
+  margin-left: 25px;
+}
+.yellow {
+  padding: 0.8rem;
+  background-color: rgb(255, 201, 41);
+  text-align: center;
+  width: 100vw;
+}
+* {
+  font-family: sans-serif;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.pantloonimg {
+  width: 190px;
+  margin-left: 60px;
+}
+header input {
+  margin-left: 25px;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px 10px;
+  color: white;
+  border: 1px solid white;
+  position: relative;
+}
+.fa-search {
+  position: absolute;
+  right: 420px;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+header {
+  background-color: rgb(0, 176, 181);
+  padding: 1.5rem;
+  justify-content: space-evenly;
+
+  width: 100vw;
+}
+.dropdown {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  width: 1100px;
+  margin: auto;
+  position: absolute;
+  display: none;
+  top: calc(100% + 2.3rem);
+  left: calc(-100% + -5rem);
+}
+
+.men {
+  left: calc(-100% + -10rem);
+}
+
+.kids {
+  left: calc(-100% + -15rem);
+}
+
+.home {
+  left: calc(-100% + -15rem);
+}
+
+#ac {
+  left: calc(-100% + -25rem);
+  height: 300px;
+}
+
+.flex {
+  padding-right: 40px;
+}
+.women:hover .dropdown {
+  display: flex;
+  position: absolute;
+  transition: position 5 sec;
+}
+
+.align {
+  vertical-align: middle;
+}
+.women {
+  position: relative;
+
+  vertical-align: middle;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  margin-left: 25px;
+  margin-right: 15px;
+}
+.dropdown a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+header p {
+  font-family: sans-serif;
+  margin-top: 0%;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  width: 60%;
+  height: 400px;
+}
+.bold {
+  font-weight: bold;
+}
+header .left > div {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  line-height: 1.8;
+  font-size: small;
+}
+header .innerright {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  line-height: 1.5;
+}
+
+.dropdown > div > div > a:first-child {
+  font-weight: bold;
+}
+#right {
+  width: 40%;
+  background-color: rgb(248, 248, 250);
+}
+#right > div {
+  width: 100%;
+}
+#right > div:first-child {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  justify-content: space-evenly;
+}
+
+#right > div:first-child > div:nth-child(1n) {
+  height: 20px;
+}
+#right > div:first-child > div:nth-child(2n) {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80%;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 10px;
+}
+.dropdown img {
+  border-radius: 20px;
+}
+#right > div:nth-child(2n) {
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  width: 95%;
+  margin-left: 5%;
+}
+#right > div:nth-child(2n) > div:nth-child(2n) {
+  width: 100%;
+}
+#right > div:nth-child(2n) > div:nth-child(2n) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
+}
+#right > div:nth-child(2n) > div:nth-child(2n) > div {
+  background-color: white;
+  border-radius: 20px;
+  width: 20%;
+  text-align: center;
+}
+
+#right > div:nth-child(3n) {
+  display: flex;
+  flex-direction: column;
+}
+
+#right > div:nth-child(3n) > div:nth-child(1n) {
+  margin-top: 5%;
+  width: 95%;
+  margin-left: 5%;
+}
+
+#right > div:nth-child(3n) > div:nth-child(2n) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 95%;
+  margin-left: 5%;
+  margin-top: 0%;
+}
+#lastdiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 95%;
+  margin-left: 5%;
+  margin-top: 0%;
+}
+#lastdiv > div {
+  width: 20%;
+}
+
+#right > div:nth-child(3n) > div:nth-child(2n) > div {
+  width: 15%;
+  margin: 1%;
+}
+
+#decor > div:nth-child(1n) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
+}
+#decor > div:nth-child(1n) > div {
+  background-color: white;
+  border-radius: 20px;
+  width: 20%;
+  text-align: center;
+  height: 20px;
+}
+/* .women{
+    height: 55px;
+} */
+.access {
+  width: 100%;
+}
+
+.brand-name{
+    font-size: 20px;
+}

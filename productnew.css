@@ -1,0 +1,268 @@
+* {
+  font-family: "Kanit", sans-serif;
+  /* font-family: "Trirong", sans-serif; */
+}
+#start > p {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+}
+
+.imp {
+  line-height: 2rem;
+  margin-top: 4%;
+  border: transparent 2px solid;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+#start {
+  display: flex;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  margin-left: 185px;
+
+  margin-top: 160px;
+}
+#main2 > p:nth-child(1) {
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 5px;
+}
+#price {
+  display: flex;
+}
+#price > p:nth-child(1) {
+  font-family: "Kanit", sans-serif;
+  font-size: 85%;
+  font-size: 20px;
+  margin-top: 0%;
+  letter-spacing: 1px;
+}
+#price > p:nth-child(2) {
+  color: rgb(168, 168, 168);
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  padding: 0px 2%;
+  letter-spacing: 1px;
+  font-style: normal;
+  text-decoration: line-through;
+}
+#price > p:nth-child(3) {
+  color: rgb(168, 124, 12);
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 2%;
+}
+#share > p {
+  font-size: 155%;
+  margin-top: 2%;
+  margin-bottom: -35%;
+  font-weight: 600;
+  font-family: "Trirong", sans-serif;
+}
+#price + p {
+  font-family: "Kanit", sans-serif;
+  margin-bottom: 1.5%;
+}
+#bottonsize {
+  margin-left: -1%;
+  margin-bottom: 2%;
+}
+#bottonsize > button {
+  border-radius: 80%;
+}
+#buttonsize + p {
+  margin-top: 2%;
+}
+#offer > p {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+.bold {
+  display: flex;
+}
+.bold > p {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+}
+#main {
+  width: 95%;
+  height: 1700px;
+  margin: auto;
+  display: flex;
+}
+
+#main1 {
+  height: 90%;
+  width: 50%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 45% 45%;
+  margin-left: 140px;
+}
+#main1 > div > img {
+  margin-left: 8%;
+}
+#main1 > div {
+  margin-bottom: 25%;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+.imp img:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: scale(1.1);
+
+  border-radius: 10px;
+}
+
+#main1 > div {
+  margin-left: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#main2 {
+  height: 100%;
+  width: 48%;
+  margin-left: 20px;
+}
+
+l,
+i,
+p {
+  margin-left: 10px;
+}
+
+#bottonsize > button {
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 3px 15px;
+  background-color: white;
+}
+#offer {
+  margin-top: 20px;
+  height: 280px;
+  width: 75%;
+  background-color: #fff1c0;
+  border-radius: 20px;
+}
+#offer > p:nth-child(1) {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-left: 2%;
+  padding-top: 1%;
+}
+.offerTag {
+  margin-left: 2%;
+  display: flex;
+  line-height: 1.5;
+}
+#quant {
+  display: flex;
+  width: 75%;
+  height: 45px;
+  margin-top: 5px;
+  justify-content: space-evenly;
+  background-color: #e2f1f1;
+  vertical-align: middle;
+}
+
+#quant > input {
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 60%;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+#quant > p {
+  margin-top: 10px;
+  font-family: "Kanit", sans-serif;
+}
+
+#placeorder {
+  display: flex;
+  width: 75%;
+  height: 60px;
+  border-bottom: 2px solid gold;
+  border-top: gold 2px solid;
+  font-size: 15px;
+}
+
+#placeorder > img {
+  margin-top: 2.5%;
+  height: 30px;
+  margin-left: 1%;
+  margin-right: 2%;
+  width: 60px;
+}
+
+#placeorder > p {
+  margin-top: 2%;
+  font-family: "Kanit", serif;
+}
+#CARTBTT > button {
+  margin-top: 15px;
+  padding: 10px 40px;
+  margin-left: 20px;
+
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+#last {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  font-size: 15px;
+}
+
+#wishlist_btn:hover {
+  background-color: rgb(195, 240, 240);
+  color: rgb(12, 11, 11);
+}
+
+#wishlist_btn {
+  color: rgb(19, 17, 17);
+  border: transparent;
+}
+
+#add_to_bag {
+  background-color: #00a7ac;
+  color: white;
+  border: transparent;
+}
+
+#add_to_bag:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+#bottonsize > button:focus {
+  background-color: teal;
+  color: white;
+}
+
+#share {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+}
+
+#share > img {
+  width: 20px;
+  height: 30px;
+}
+#main1 img {
+  border-radius: 20px;
+}
