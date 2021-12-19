@@ -4,7 +4,7 @@
         var pass = document.querySelector("#pass").value
         var expiry = document.querySelector("#expiry").value
 
-       if(num=="11001100" && pass=="123" && expiry=="2021-05"){
+       if(num=="11001100" && pass=="123" && expiry=="2022-05"){
            console.log("vikas")
         window.location.href="otp.html"
        }
