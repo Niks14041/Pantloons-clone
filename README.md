@@ -27,6 +27,6 @@ For storing user data and product data we are using localStorage of browser.
 
 ## Preview 
 
-[Deployment](https://niks14041.github.io/Pantloons-clone/homepage.html)
+Click on above link for preview[Deployment](https://niks14041.github.io/Pantloons-clone/homepage.html)
 
 
