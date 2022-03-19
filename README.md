@@ -14,10 +14,12 @@ Clone of Pantloons.com which is ecommerce company where users can purchase cloth
 <li>CSS</li>
 <li>Javascript</li>
 
+## Data Storage
 
 For storing user data and product data we are using localStorage of browser.
 
-##Team Members
+## Team Members
+
 <li>Nikhil Mohale</li>
 <li>Shashikant Patil</li>
 <li>Prashant S Laxmeshwarmath</li>
