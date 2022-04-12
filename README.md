@@ -3,6 +3,9 @@ Clone of Pantloons.com which is ecommerce company where users can purchase cloth
 
 ### For Educational And Learning Purpose*
 
+For interacting with our website you have to login first then only you can view the products 
+## Username : vikas, Password: vikas
+
 This is the clone of Pantaloons (www.pantaloons.com). We started this project as a 5 members team during construct week organized at Masai School, Bengaluru, Karnataka.
 
 ## About Pantloons
