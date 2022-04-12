@@ -241,7 +241,7 @@ header {
 .women:hover .dropdown {
   display: flex;
   position: absolute;
-  transition: position 5 sec;
+  transition: position 5s;
 }
 
 .align {
@@ -409,4 +409,13 @@ header .innerright {
 
 .brand-name{
     font-size: 20px;
+}
+.user_info{
+  
+  margin: auto;
+}
+.user_info>p{
+  font-weight: 100;
+  font-size:x-small;
+  color:rgba(0, 0, 0, 0.213)
 }
