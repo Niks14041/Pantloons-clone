@@ -1,8 +1,22 @@
+
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  
+   
+}
+
+
+
 #fullPage {
   width: 100%;
-  display: grid;
+  
   margin-top: -3%;
 }
+
 #hero {
   margin-bottom: 9%;
 }
